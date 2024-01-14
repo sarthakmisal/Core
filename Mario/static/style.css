@@ -1,0 +1,76 @@
+
+/* Mario Game Demo No 5 */
+
+.mario{
+    height: 735px;
+    width: 100%;
+    background-image: url("StairsMario2.png");
+    background-size: 100% 100%;
+}
+
+.mariocharacter{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 544px;
+    margin-left: 15px;
+    background-image: url("mariov2.gif");
+    background-size: 100% 100%;
+    animation-name: marioo;
+    animation-iteration-count: 5;
+    animation-duration: 15s;
+    position: relative;
+}
+@keyframes marioo {
+
+    0%{top: 0px; left: 0px;}
+    2%{top: -50px; left: 0px;}
+    4%{top: -50px; left: 50px;}
+    6%{top: -100px; left: 50px;}
+    8%{top: -100px; left:100px;}
+
+    10%{top: -150px; left:100px;}
+    12%{top: -150px; left: 150px;}
+    13%{top: -200px; left: 150px;}
+    14%{top: -200px; left: 270px;}
+    16%{top: -10px; left: 270px;}
+
+    22%{top: -200px; left: 280px;}
+    24%{top: -200px; left: 350px;}
+    26%{top: -200px; left: 350px;}
+    28%{top: -200px; left: 400px;}
+    30%{top: -130px; left: 400px;}
+
+    32%{top: -130px; left: 450px;}
+    34%{top: -90px; left: 450px;}
+    36%{top: -90px; left: 500px;}
+    38%{top: -50px; left: 500px;}
+    40%{top: -50px; left: 550px;}
+
+    42%{top: -0px; left: 600px;}
+    49%{top: -0px; left: 680px;}
+    50%{top: -50px; left: 700px;}
+    52%{top: -50px; left: 740px;}
+    54%{top: -100px; left: 740px;}
+
+    56%{top: -100px; left: 780px;}
+    58%{top: -150px; left: 780px;}
+    60%{top: -150px; left: 820px;}
+    62%{top: -200px; left: 820px;}
+    64%{top: -200px; left: 970px;}
+    66%{top: 5200px; left: 970px;}
+    68%{top: -500px; left: 970px;}
+
+    70%{top: -200px; left: 1080px;}
+    72%{top: -200px; left: 1130px;}
+    74%{top: -150px; left: 1130px;}
+    76%{top: -150px; left: 1170px;}
+    78%{top: -100px; left: 1170px;}
+    80%{top: -100px; left: 1210px;}
+    82%{top: -50px; left: 1210px;}
+    84%{top: -50px; left: 1260px;}
+    86%{top: -0px; left: 1290px;}
+    91%{top: -0px; left: 1350px;}
+        
+    100%{top: -0px; left: 1450px;}
+}
