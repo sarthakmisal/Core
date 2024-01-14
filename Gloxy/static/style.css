@@ -1,0 +1,62 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .button :hover {
+        background-color:#fe5618;
+        color: white;
+        
+    }
+    .work1{
+        background-image: url("static/work-1.jpg");
+        background-size: 100% 100%;
+    }
+    .work2{
+        background-image: url("static/work-2.jpg");
+        background-size: 100% 100%;
+    }
+    .work3{
+        background-image: url("static/work-3.jpg");
+        background-size: 100% 100%;
+    }
+    .work4{
+        background-image: url("static/work-4.jpg");
+        background-size: 100% 100%;
+    }
+    .work5{
+        background-image: url("static/work-5.jpg");
+        background-size: 100% 100%;
+    }
+    .work6{
+        background-image: url("static/work-6.jpg");
+        background-size: 100% 100%;
+    }
+        
+    .logo{
+        background-image: url("static/logo.png");
+        
+        background-repeat: no-repeat    ;
+    }
+    .dotted{
+        background-image: url("static/dotted1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .tempbag{
+        background-color: white;
+        
+    }
+
+    .imk{
+        background-image: url("static/ladyimg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .work{
+        color: white;
+    }
+    .work div:hover{
+        background-color: #fe5618;
+        background-image: none;
+        border-radius: 20px;
+    }
