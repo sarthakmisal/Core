@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/font-awesome/css/font-awesome.min.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="<?=base_url()?>admin_assets/src/assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="<?=base_url()?>admin_assets/src/assets/images/favicon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start " style="background:black">
+          <a class="navbar-brand brand-logo" href="index.html"><img src="<?=base_url()?>admin_assets/src/assets/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="<?=base_url()?>admin_assets/src/assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch" style="background:black">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+                    
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class=" sidebar sidebar-offcanvas" style="background-color:black" id="sidebar">
+          <ul class="nav">
+            
+            <li class="nav-item reymond active">
+              <a class="nav-link" href="#">
+                <span class="menu-title font-weight-bold">Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item reymond">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-title text-white font-weight-bold">Basic UI Elements</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/ui-features/buttons.html">Buttons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/ui-features/dropdowns.html">Dropdowns</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/ui-features/typography.html">Typography</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <style>
+          .reymond{
+            background-color: black !important;
+          }
+          .reymond:hover{
+            background-color: #222 !important;
+          }
+        </style>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            
+            
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2023 <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="<?=base_url()?>admin_assets/src/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="<?=base_url()?>admin_assets/src/assets/vendors/chart.js/chart.umd.js"></script>
+    <script src="<?=base_url()?>admin_assets/src/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="<?=base_url()?>admin_assets/src/assets/js/off-canvas.js"></script>
+    <script src="<?=base_url()?>admin_assets/src/assets/js/misc.js"></script>
+    <script src="<?=base_url()?>admin_assets/src/assets/js/settings.js"></script>
+    <script src="<?=base_url()?>admin_assets/src/assets/js/todolist.js"></script>
+    <script src="<?=base_url()?>admin_assets/src/assets/js/jquery.cookie.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="<?=base_url()?>admin_assets/src/assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(count($cart)!=0){
+}else{
+    ?>
+    echo '
+    <div class="container ">
+    <div class="jumbotron m-5 ml-0">
+    <h1 class="display-4">OOPS, Your Cart is Empty!</h1>
+    <p class="lead">Go Get Items of your Choice.</p>
+    <hr class="my-4">
+    <p>Explore Throughout the Application and Add Items to your Cart .</p>
+    <a class="btn btn-primary btn-lg" href="'.base_url().'" role="button">Dashboard</a>
+    </div>
+    </div>';
+                    <?php
+                }
+                ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <?php
+$totalPrice=0;
+// print_r($cart[0]);exit;
+    ?>
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-md-9 border shadow">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>User Cart</h1>
+                    </div>
+                    <?php
+                    foreach ($cart as $key => $row): 
+                        $totalPrice+=$row['p_price'];
+                        ?>
+                        <div class="col-md-3 my-4">
+                            <img src="<?= base_url('uploads/') . explode("&&", $row['p_images'])[0] ?>" width="100%" alt="">
+                        </div>
+                        <div class="col-md-7 my-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="font-size:1.5rem" class="font-weight-bold"><?= $row['p_name'] ?></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <h6 style="font-size:1.5rem">&#8377;&nbsp;<?= number_format($row['p_price']) ?>&nbsp;/-
+                                    </h6>
+                                </div>
+                                <div class="col-md-12">
+                                    <button onclick="decrease(quantity[<?= $key ?>].value,<?= $row['c_id'] ?>,<?= $key ?>)"
+                                        style="margin-top:-5px;font-size:1.5rem"
+                                        class="btn btn-sm btn-dark rounded-0">-</button>&nbsp;
+                                    <input type="button" id="quantity"
+                                        style="background:transparent;font-weight:bold;border:none"
+                                        value="<?= $row['quantity'] ?>">&nbsp;
+                                    <button onclick="increase(quantity[<?= $key ?>].value,<?= $row['c_id'] ?>,<?= $key ?>)"
+                                        style="margin-top:-5px;font-size:1.5rem"
+                                        class="btn btn-sm btn-dark rounded-0">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                        <a class="text-decoration-none" href="<?=base_url('user/removeFromCart/').$row['c_id']?>">
+                            <button class="my-5 btn btn-danger d-flex"><i
+                            class="mt-1 fa-solid fa-circle-xmark"></i>&nbsp;Remove</button>
+                        </a>
+                        </div>
+                        <?php
+                    endforeach;
+                    ?>
+                </div>
+            </div>
+            <div class="col-md-3 border shadow">
+                <div class="row">
+                    <div class="col-md-10 shadow-lg position-relative my-5 mx-auto">
+                    <div class="p-3">
+                        <p>Sub Total : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8377;&nbsp;<?= number_format($totalPrice)?>&nbsp;/-</p><hr>
+                        <p>Charges :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8377;&nbsp;0&nbsp;/-</p><hr>
+                        <p class="font-weight-bold">Total :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377;&nbsp;<?= number_format($totalPrice)?>&nbsp;/-</p>
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+        function increase(first, c_id, target) {
+            console.log(first,c_id,target)
+            // if (first < 6) fetch('<?= base_url("user/increaseQuantity/") ?>'+c_i d )  .then(res=>res.json())   . then(data=>quantity[target].value=data)
+        }
+        function decrease(first, c_id, target) {
+            if (first > 1) fetch('<?= base_url("user/decreaseQuantity/") ?>'+c_i d )  .then(res=>res.json())   . then(data=>quantity[target].value=data)
+        }
+    </script>
